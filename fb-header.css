@@ -1,0 +1,67 @@
+.fb-header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(44, 44, 44);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(80, 80, 80);
+}
+
+.left-header{
+  width: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.middle-header{
+  flex: 1;
+  max-width: 700px;
+}
+
+.right-header{
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.fb-logo{
+  width: 40px;
+  border-radius: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.fb-search{
+  flex: 1;
+  height: 40px;
+  background-color: rgb(65, 65, 65);
+  border: none;
+  border-radius: 20px;
+  font-family: arial;
+  color: white;
+  padding-left: 30px;
+  font-size: 16px;
+}
+
+.fb-search::placeholder{
+  font-family: arial;
+  color: rgb(160, 160, 160);
+  padding-left: 8px;
+  font-size: 16px;
+}
+
+
+.fb-profile-header{
+  width: 40px;
+  border-radius: 30px;
+  display: flex;
+  margin-right: 20px ;
+}
+

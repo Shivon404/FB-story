@@ -1,0 +1,20 @@
+.fb-background{
+  background-color: rgb(22, 22, 22);
+  position: relative;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 30px;
+  margin-bottom: 100px;
+
+  white-space: nowrap;
+}
+
+.fb-middle{
+  padding-left: 370px;
+  padding-right: 370px;
+}
+
+.side-button.clicked {
+  background-color: rgb(95, 95, 95);
+  overflow-x: auto;
+}
